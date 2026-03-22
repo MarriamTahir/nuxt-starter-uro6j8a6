@@ -1,43 +1,43 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, getResponseStatusText } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/h3@1.15.6/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, getRouterParam, getResponseStatusText } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/h3@1.15.6/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { escapeHtml } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/@vue+shared@3.5.30/node_modules/@vue/shared/dist/shared.cjs.js';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue-bundle-renderer@2.2.0/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/ufo@1.6.3/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue/server-renderer/index.mjs';
-import destr, { destr as destr$1 } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/node-mock-http@1.0.4/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unstorage@1.17.4_db0@0.3.4_ioredis@5.10.0/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unstorage@1.17.4_db0@0.3.4_ioredis@5.10.0/node_modules/unstorage/drivers/fs.mjs';
-import { digest } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unctx@2.5.0/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import { escapeHtml } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/@vue+shared@3.5.30/node_modules/@vue/shared/dist/shared.cjs.js';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue-bundle-renderer@2.2.0/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/ufo@1.6.3/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue/server-renderer/index.mjs';
+import destr, { destr as destr$1 } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/node-mock-http@1.0.4/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unstorage@1.17.4_db0@0.3.4_ioredis@5.10.0/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unstorage@1.17.4_db0@0.3.4_ioredis@5.10.0/node_modules/unstorage/drivers/fs.mjs';
+import { digest } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
+import { klona } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
+import { getContext } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unctx@2.5.0/node_modules/unctx/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/youch-core@0.3.3/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/youch@4.1.0/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/source-map@0.7.6/node_modules/source-map/source-map.js';
+import consola, { consola as consola$1 } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/youch-core@0.3.3/node_modules/youch-core/build/index.js';
+import { Youch } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/youch@4.1.0/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/source-map@0.7.6/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { stringify, uneval } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/devalue@5.6.4/node_modules/devalue/index.js';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/errx@0.1.0/node_modules/errx/dist/index.js';
-import { isVNode, isRef, toValue } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue/index.mjs';
-import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/@nuxt+vite-builder@3.21.2_nuxt@3.21.2_typescript@5.9.3_vue@3.5.30/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
+import { stringify, uneval } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/devalue@5.6.4/node_modules/devalue/index.js';
+import { captureRawStackTrace, parseRawStackTrace } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/errx@0.1.0/node_modules/errx/dist/index.js';
+import { isVNode, isRef, toValue } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue/index.mjs';
+import _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/@nuxt+vite-builder@3.21.2_nuxt@3.21.2_typescript@5.9.3_vue@3.5.30/node_modules/@nuxt/vite-builder/dist/fix-stacktrace.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname as dirname$1, resolve as resolve$1 } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/pathe@2.0.3/node_modules/pathe/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/server.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/plugins.mjs';
-import { walkResolver } from 'file:///home/projects/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/utils.mjs';
+import { dirname as dirname$1, resolve as resolve$1 } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/pathe@2.0.3/node_modules/pathe/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/server.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/plugins.mjs';
+import { walkResolver } from 'file:///home/MarriamTahir/nuxt-starter-uro6j8a6/node_modules/.pnpm/unhead@2.1.12/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"/home/projects/nuxt-starter-uro6j8a6/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/home/MarriamTahir/nuxt-starter-uro6j8a6/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -49,11 +49,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/projects/nuxt-starter-uro6j8a6","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/projects/nuxt-starter-uro6j8a6/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/projects/nuxt-starter-uro6j8a6/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/projects/nuxt-starter-uro6j8a6/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/home/projects/nuxt-starter-uro6j8a6/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/MarriamTahir/nuxt-starter-uro6j8a6","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/MarriamTahir/nuxt-starter-uro6j8a6/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/MarriamTahir/nuxt-starter-uro6j8a6/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/MarriamTahir/nuxt-starter-uro6j8a6/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/home/MarriamTahir/nuxt-starter-uro6j8a6/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -2026,13 +2026,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _MdKt6sTyuqM90OHQAlc3Iq3Bvrcf5oLfhm_hHnFzU = (function(nitro) {
+const _9ESQ5LQ4Lb3SDFKo3vKwHl5merhmO9rxOMqWjXOOxsc = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
-const rootDir = "/home/projects/nuxt-starter-uro6j8a6";
+const rootDir = "/home/MarriamTahir/nuxt-starter-uro6j8a6";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Inter:wght@300;400&display=swap"}],"style":[],"script":[],"noscript":[]};
 
@@ -2057,7 +2057,7 @@ const asyncContext = getContext("nuxt-dev", {
 	asyncContext: true,
 	AsyncLocalStorage
 });
-const _QN5oNqybh5SD1Za1ZnAdocrV73E4BSWDwbFQ3pAad34 = (nitroApp) => {
+const _47uS4bYYJOAdeMphcQOJzdaKNF_vE_z4BOnrzmYoO3w = (nitroApp) => {
 	const handler = nitroApp.h3App.handler;
 	nitroApp.h3App.handler = (event) => {
 		return asyncContext.callAsync({
@@ -2131,8 +2131,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _MdKt6sTyuqM90OHQAlc3Iq3Bvrcf5oLfhm_hHnFzU,
-_QN5oNqybh5SD1Za1ZnAdocrV73E4BSWDwbFQ3pAad34,
+  _9ESQ5LQ4Lb3SDFKo3vKwHl5merhmO9rxOMqWjXOOxsc,
+_47uS4bYYJOAdeMphcQOJzdaKNF_vE_z4BOnrzmYoO3w,
 _wH6JrtIxmaSoA8lCPWFnE9z4lQeXW6H5z3l5aymEQw
 ];
 
@@ -2161,7 +2161,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _xsh6Ks = eventHandler((event) => {
+const _T6FoHZ = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -2303,9 +2303,9 @@ function publicAssetsURL(...path) {
 const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
 const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
 // @ts-expect-error file will be produced after app build
-const getServerEntry = () => import('file:///home/projects/nuxt-starter-uro6j8a6/.nuxt//dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file:///home/MarriamTahir/nuxt-starter-uro6j8a6/.nuxt//dist/server/server.mjs').then((r) => r.default || r);
 // @ts-expect-error file will be produced after app build
-const getClientManifest = () => import('file:///home/projects/nuxt-starter-uro6j8a6/.nuxt//dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file:///home/MarriamTahir/nuxt-starter-uro6j8a6/.nuxt//dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 // -- SSR Renderer --
 const getSSRRenderer = lazyCachedFunction(async () => {
 	// Load server bundle
@@ -2596,13 +2596,13 @@ async function getIslandContext(event) {
 	};
 }
 
-const _lazy_njLXER = () => Promise.resolve().then(function () { return renderer; });
+const _lazy_iqAS3l = () => Promise.resolve().then(function () { return renderer; });
 
 const handlers = [
-  { route: '', handler: _xsh6Ks, lazy: false, middleware: true, method: undefined },
-  { route: '/__nuxt_error', handler: _lazy_njLXER, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _T6FoHZ, lazy: false, middleware: true, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_iqAS3l, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: handler$1, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_njLXER, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_iqAS3l, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
